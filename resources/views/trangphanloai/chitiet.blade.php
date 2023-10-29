@@ -91,7 +91,8 @@
 				</table>
 			</div>
 			<div class="col-lg-6">
-				<img src="public\f.jpg" width="500" height="550" style="margin-left: 50px">
+				<img src="{{ asset($sanpham->img_link) }}" width="500" height="550" style="margin-left: 50px">
+
 			</div>
 		</div>
 		<br><br><br>
